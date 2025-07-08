@@ -62,8 +62,8 @@ st.markdown(
         text-align: center;
         padding: 10px;
         background-color: #f0f0f0;
-        color: #888;
-        font-size: 13px;
+        color: #FFFFFF;
+        font-size: 20px;
     }
     </style>
 
