@@ -52,17 +52,6 @@ if st.sidebar.button("Predict Sales"):
     st.success(f"🧠 Predicted Sales: **{prediction:.2f} Units**")
 
     st.balloons()
-st.markdown("---")
-st.markdown("<center>Developed by Jacob</center>", unsafe_allow_html=True)
-st.markdown(
-    """
-    <hr style="margin-top: 50px;">
-    <div style='text-align: center; color: gray; font-size: 14px;'>
-        Developed by Jacob
-    </div>
-    """,
-    unsafe_allow_html=True
-)
 st.markdown(
     """
     <style>
