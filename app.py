@@ -62,7 +62,7 @@ st.markdown(
         text-align: center;
         padding: 10px;
         background-color: #f0f0f0;
-        color: #FFFFFF;
+        color: #0a3d62;
         font-size: 20px;
     }
     </style>
