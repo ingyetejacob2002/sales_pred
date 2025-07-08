@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the trained model
-model = joblib.load("C://Users/user/Desktop/sales prediction/model.pkl")
+model = joblib.load("model.pkl")
 
 # App styling
 st.set_page_config(page_title="Sales Predictor", layout="wide")
