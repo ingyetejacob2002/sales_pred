@@ -33,7 +33,7 @@ st.markdown(
 )
 
 # Background image
-st.image("C://Users/user/Desktop/sales prediction/images/bg.jpg", use_column_width=True)
+st.image("images/bg.jpg", use_container_width=True)
 
 st.markdown('<div class="title">📈 Sales Prediction App</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Predict your sales based on your ad budgets</div>', unsafe_allow_html=True)
