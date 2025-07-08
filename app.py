@@ -52,3 +52,38 @@ if st.sidebar.button("Predict Sales"):
     st.success(f"🧠 Predicted Sales: **{prediction:.2f} Units**")
 
     st.balloons()
+st.markdown("---")
+st.markdown("<center>Developed by Jacob</center>", unsafe_allow_html=True)
+st.markdown(
+    """
+    <hr style="margin-top: 50px;">
+    <div style='text-align: center; color: gray; font-size: 14px;'>
+        Developed by Jacob
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+st.markdown(
+    """
+    <style>
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        background-color: #f0f0f0;
+        color: #888;
+        font-size: 13px;
+    }
+    </style>
+
+    <div class="footer">
+        Developed by Jacob
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
+
